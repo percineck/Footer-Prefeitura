@@ -1,5 +1,4 @@
 <?php
-
 /**
  * The template for displaying the footer
  *
@@ -15,9 +14,11 @@
 <?php wp_footer(); ?>
 
 <div style="background-color: #01913a; padding: 6px;"></div>
+
 <footer class="bg-dark text-white pt-5 pb-2">
 	<div class="container text-center text-md-left">
 		<div class="row text-center text-md-left">
+			
 			<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3" href="#">
 				<img src="<?php bloginfo('template_url'); ?>/images/logo_footer.png" alt="" height="150">
 			</div>
@@ -75,15 +76,12 @@
 				<a href="#" style="font-size: 15px">© 2021 - Departamento de Tecnologia da Informação - Prefeitura de Toledo.</a>
 			</div>
 		</div>
-
 	</div>
 </footer>
 
 <script src="<?php bloginfo('template_url'); ?>/js/jquery-3.4.1.min.js"></script>
-
 <script src="<?php bloginfo('template_url'); ?>/js/popper.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.bundle.min.js"></script>
-
 <script src="<?php bloginfo('template_url'); ?>/js/navbar hover.js"></script>
 </body>
 
